@@ -1,0 +1,80 @@
+h1{
+
+    text-align: center;
+    background-color: blue;
+    font-size: 70px;
+    color: black;
+}
+
+.img-um{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.img-lateral{
+    width: 30%;
+    height: auto;
+}
+
+.texto{
+    text-align: center;
+    font-size: 20px;
+    flex: 1;
+    min-width: 350px;
+    color: red;
+}
+body{
+    background-color: black;
+
+}
+
+h2{
+    text-align: center;
+    background-color: blue;
+    font-size: 70px;
+    color: black;
+}
+
+.riscos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.lado-direito{
+    width: 30%;
+    height: auto;
+}
+
+.paragrafo-dois{
+    text-align: center;
+    font-size: 20px;
+    flex: 1;
+    min-width: 350px;
+    color: red;
+}
+
+h3{
+    text-align: center;
+    background-color: blue;
+    font-size: 70px;
+}
+
+.P{
+    font-size: 30px;
+    color: red;
+
+
+}
+
+.number{
+    font-size: 30px;
+    color: aliceblue;
+    background-color: blue;
+   word-spacing: 230px;
+}
