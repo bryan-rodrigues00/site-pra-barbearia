@@ -1,82 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>barbearia</title>
+    <title>Login | Barbearia Premium</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-  <h1>Agende seu horario conosco</h1>
 
-   
-    <section class="img-um">
+    <div class="login-container">
+        <h2>Barbearia</h2>
+        <form id="loginForm">
+            <div class="input-group">
+                <label for="email">E-mail</label>
+                <input type="text" id="email" placeholder="seu@email.com" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Senha</label>
+                <input type="password" id="password" placeholder="********" required>
+            </div>
+            <button type="submit" class="btn-login">Entrar</button>
+            <p id="error" class="error-message">Por favor, insira um e-mail válido (com @).</p>
+        </form>
+    </div>
 
-     <img src="corte-1.png" alt="icone esquerda" title="degrade" class="img-lateral">
-        
-     <div class="texto">
-         <p>Bem-vindo à nossa Barbearia! Oferecemos cortes modernos, 
-            degradês precisos e cuidados pessoais com experiência de anos.
-         Venha transformar seu visual com estilo e qualidade.  
-         Agende agora e sinta a diferença!</p>
-        </div>
-    
-        
-    <img src="corte-2.jpg" alt="icone direita" title="corte do jaca" class="img-lateral">
-    </section>
-
-<h2>Por que nos escolher?</h2>
-
-<section class="riscos">
-
-    <img src="risco-1.jpg" alt="freestyle" title="freestyle" class="lado-direito">
-
-<div class="paragrafo-dois">
-
-    <P>Atendimento Personalizado: Cada traço é pensado para valorizar o seu estilo único.
-
-    Ambiente Exclusivo: Decoração impecável, poltronas confortáveis e aquele café ou cerveja gelada por nossa conta.
-
-    Produtos de Elite: Utilizamos apenas pomadas e óleos de primeira linha para garantir a saúde dos seus fios.
-
-    Higiene Rigorosa: Materiais esterilizados e ambiente climatizado para sua total segurança.</P>
-
-</div>
-
-    
-    <img src="risco-2.jpg" alt="risco simples" title="risco simples" class="lado-direito">
-
-</section>
-    
-<h3>somos os melhores da noroeste </h3>
-
-    <div class="P">
-
-    <P>No correria do dia a dia, você merece um momento de pausa em um lugar que entende do assunto. Não entregue sua imagem a qualquer um; venha para quem é referência em estética masculina na região. Localizada no coração da cidade, nossa barbearia é o ponto de encontro de quem não abre mão da excelência.</P>
-
-</div>
-
-<p class="number">
-    TELEFONE:629933468392
-    INSTA:GETLE-BARBER
-    FACEBOOK:gentle-barbearia
-</p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <script src="script.js"></script>
 </body>
 </html>
